@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="maki" horiz-adv-x="1000" >
+<font-face font-family="maki" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="basketball" unicode="&#xe807;" d="M225 775l-225-200 0-400c0-25 25-50 50-50l178 0 97-175c14-25 25-25 50-25l100 0c25 0 36 0 50 25l97 175 178 0c25 0 50 25 50 50l0 400-225 200-400 0z m-25-200l450 0 0-300-450 0 0 300z m50-50l0-200 350 0 0 200-350 0z m28-400l72 0 0-50 50 0 0 50 50 0 0-50 50 0 0 50 72 0-28-50-44 0 0-50 17 0-17-31 0 31-50 0 0-50-50 0 0 50-50 0 0-31-17 31 17 0 0 50-44 0-28 50z m122-100l50 0 0 50-50 0 0-50z" horiz-adv-x="850" />
+</font>
+</defs>
+</svg>
