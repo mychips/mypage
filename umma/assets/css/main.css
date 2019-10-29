@@ -47,6 +47,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.profile {
+		display: flex;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1290,7 +1294,7 @@
 /* Image */
 
 	.image {
-		display: inline-block;
+		display: block;
 		position: relative;
 	}
 
