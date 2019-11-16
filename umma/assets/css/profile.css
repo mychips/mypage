@@ -10,10 +10,6 @@ h2 {
     text-align: left;
 }
 
-#main {
-    
-}
-
 #profile {
     background-color: white;
     display: flex;
@@ -23,6 +19,7 @@ h2 {
 .logo {
     width: 600px;
 }
+
 .image {
     width: 300px;
     position: relative;
@@ -110,7 +107,7 @@ h2 {
 }
 
 @media screen and (max-width: 800px){
-    h2 {
+    .name {
         font-size: 20px;
     }
 
@@ -131,14 +128,51 @@ h2 {
         height : 50px;
         overflow : auto;
     }
+
+    .button {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 600px){
-    h2 {
-        font-size: 15x;
+    .name {
+        left: 0;
+        text-align: left;
     }
 
     .datapro {
         font-size: 10px;
+    }
+
+    .button {
+        font-size: 10px;
+    }
+
+    .button2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #profile {
+        display: block;
+        align-items: stretch;
+    }
+
+    .name {
+        margin: 0px;
+    }
+
+    .pos {
+        visibility: hidden;
+    }
+
+    .logo {
+        visibility: visible;
+        padding: 0px;
+    }
+
+    .button2 {
+        font-size: 25px;
     }
 }
