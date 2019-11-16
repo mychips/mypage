@@ -6,16 +6,18 @@ body {
 }
 
 h2 {
-    font-size: 50px;
-    text-align: center;
+    font-size: 30px;
+    text-align: left;
 }
 
 #main {
-    background-color: white;
+    
 }
 
 #profile {
+    background-color: white;
     display: flex;
+    margin: 0 20px 20px 20px;
 }
 
 .logo {
@@ -35,18 +37,20 @@ h2 {
 .datapro {
     display: inline;
     position: relative;
-    left: 100px;
+    left: 50px;
 }
 
 .button {
     color: rgba(255, 255, 255, 0.9) !important;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 500;
     padding: 0.5em 1.2em;
     background: #318aac;
     border: 2px solid;
+    border-radius: 10px;
     border-color: #318aac;
     position: relative;
+    z-index: 100;
 }
 
 .button:hover {
@@ -57,12 +61,13 @@ h2 {
   
 .button2 {
     color: #fff !important;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     padding: 0.5em 1.2em;
     background: #318aac;
     position: inline;
     border: 2px solid #318aac;
+    border-radius: 30px;
     outline: 1px solid;
     outline-color: rgba(49, 138, 172, 0.4);
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
@@ -73,9 +78,67 @@ h2 {
     box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
     outline-color: rgba(49, 138, 172, 0);
     outline-offset: 80px;
-    text-shadow: 1px 1px 6px #fff; 
+    text-shadow: 1px 1px 6px #fff;
 }
 
 .align {
     text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons li {
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+.copy li {
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+@media screen and (max-width: 1080px){
+    .logo {
+        padding-top: 100px;
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    h2 {
+        font-size: 20px;
+    }
+
+    .datapro {
+        font-size: 12px;
+    }
+
+    .logo {
+        visibility: hidden;
+    }
+
+    .stats {
+        border : solid 2px #318aac;
+        background : #000000;
+        color : #ffffff;
+        padding : 4px;
+        width : 200px;
+        height : 50px;
+        overflow : auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    h2 {
+        font-size: 15x;
+    }
+
+    .datapro {
+        font-size: 10px;
+    }
 }
