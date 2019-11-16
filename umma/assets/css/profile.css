@@ -168,11 +168,28 @@ h2 {
     }
 
     .logo {
+        align-items: center;
+        width: 200px;
+        height: 150px;
         visibility: visible;
         padding: 0px;
     }
 
     .button2 {
         font-size: 25px;
+    }
+
+    .image {
+        align-items: center;
+        width: 200px;
+    }
+
+    #table {
+        overflow-x: scroll;
+        padding: 20px;
+    }
+
+    .stats {
+        padding: 20px;
     }
 }
