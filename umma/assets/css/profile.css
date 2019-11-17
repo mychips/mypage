@@ -173,6 +173,7 @@ h2 {
     }
 
     .logo {
+        margin-left: 20px;
         width: 200px;
         height: 150px;
         visibility: visible;
@@ -184,6 +185,7 @@ h2 {
     }
 
     .image {
+        left: 60px;
         width: 200px;
     }
 
